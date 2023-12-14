@@ -1,0 +1,89 @@
+
+body {
+  margin: 5px;
+  padding: 2px;
+  font-family: 'YourChosenFont', Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.app {
+  height: 90vh;
+  width: 90vw;
+  border: 1px solid lavender;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 3.5vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app_logo img {
+  margin: 20px;
+  height: auto;
+  max-width: 100%;
+}
+
+.sections {
+  margin-top: 10px;
+  margin-left: 20px;
+  font-family: 'YourChosenFont', Arial, sans-serif;
+}
+
+.join_btn {
+  height: auto;
+  width: 12%;
+  min-width: 100px;
+  text-align: center;
+  padding: 0.6rem;
+  color: aliceblue;
+  background-color: blue;
+  border-radius: 6px;
+  margin-top: 30px;
+  transition: background-color 0.3s; 
+}  
+
+.join_btn:hover {
+  background-color: darkblue; 
+}
+
+.footers {
+  padding: 20px;
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-style: normal;
+}
+
+.ft_left {
+  margin-left: 20px;
+  margin-bottom: 0;
+}
+
+.ft_left img {
+  margin-top: 20px;
+  height: auto;
+  max-width: 100%;
+}
+.ft_left p{
+  opacity: .7;
+}
+.ft_right p{
+  opacity: .7;
+}
+
+/* Media Queries for Tablet */
+@media screen and (max-width: 768px) {
+  .app {
+      width: 80vw;
+  }
+}
+
+/* Media Queries for Mobile */
+@media screen and (max-width: 480px) {
+  .app {
+      width: 95vw;
+  }
+}
